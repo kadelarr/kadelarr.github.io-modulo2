@@ -1,0 +1,65 @@
+
+body{
+	background:linear-gradient(top, Gray, gold);
+	background:-webkit-linear-gradient(top, Gray, black);
+	background:-moz-linear-gradient(top, Gray, gold);
+	background:-o-linear-gradient(top, Gray, gold);
+	background:-ms-linear-gradient(top, Gray, gold);
+	text-align: center;
+}
+#caja{
+	    height: 60px;
+  
+    margin-bottom: 0px;
+	background:linear-gradient(top, blue, gold);
+	background:-webkit-linear-gradient(top, blue, Gray);
+	background:-moz-linear-gradient(top, red, gold);
+	background:-o-linear-gradient(top, red, gold);
+	background:-ms-linear-gradient(top, red, gold);
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+
+.contenedor{
+	
+	width: 100%;
+	display: flex;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+
+}
+
+#img{
+	float: left;
+	width: 95%;
+	margin: 2px;
+	border-color: blue;
+	text-align: center;
+	border-style: solid;
+	border-radius: 13px;
+}
+
+
+.contentVideo{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+	font-weight: bold;
+	color: blue;
+}
+.video{
+	
+    width: 100%;
+    margin: 2px;
+	text-align: center;
+	
+}
+.content-img{
+	display: inline-block;
+	width: 37%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+}
